@@ -169,7 +169,7 @@ body { background: var(--smoky-black); }
 article {
   background: var(--eerie-black-2);
   border: 1px solid var(--jet);
-  border-radius: 20px;
+  border-radius: 30px;
   padding: 15px;
   box-shadow: var(--shadow-1);
   z-index: 1;
@@ -1418,6 +1418,9 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .about-text { margin-bottom: 40px; }
 
+  .paper-text { white-space: nowrap; 
+    margin-bottom: 10px; 
+  color: var(--orange-yellow-crayola);}
   /* service */
 
   .service-item {
