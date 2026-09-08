@@ -228,18 +228,30 @@
           </p>
 </section>
         
-    <section class ="service">
-      <h3 class="h3 article-title"> News </h3>
-      <p>
-        <section class="about-text">
+    <section class="service">
+      <h3 class="h3 article-title">News</h3>
 
-            <ol class="timeline-list">
-              <li class="timeline-item">
+      <section class="about-text">
+        <!--
+          HOW TO ADD A NEWS ITEM:
+          1. Copy one <li class="timeline-item"> block below.
+          2. Update the date in <span> and the text in <p>.
+          3. Optionally wrap text in <a href="..."> to link to a paper, event, etc.
+        -->
+        <ol class="timeline-list">
 
-              </li>
-            </ol>
+          <!-- News item template -->
+          <li class="timeline-item">
+            <span>IMLS Award, August, 2026</span>
+            <p class="timeline-text">
+              I was awarded an applied research grant by Institute of Museum and Library Services titled "Library-wide, Machine-Generated Metadata as First-Class Structural Components". This is a 3-year project.  
             </p>
-            </section>
+          </li>
+
+          <!-- ADD MORE NEWS ITEMS ABOVE THIS LINE -->
+
+        </ol>
+      </section>
           
 
         <section class="service">
@@ -820,23 +832,147 @@ Article 47, 2 pages. https://doi.org/10.1145/3529372.3530948
       </article>
 
 <article class="lab" data-page="lab">
+
   <header>
-          <h2 class="h2 article-title">Digital Library <br>Innovations Lab</h2>
-        </header>
+    <h2 class="h2 article-title">Digital Library <br>Innovations Lab</h2>
+  </header>
 
-        <section class="about-text">
+  <section class="about-text">
+    <p>We have a team of awesome students working on several research projects!</p>
+  </section>
 
-       We have a team of awesome students working on several research projects! <br> 
-            <ol class="timeline-list">
-              <!-- <li class="timeline-item">
-                Stella Kang: 
-                <br></li>
-              <li class="timeline-item">
-                Artur Primo
-                </li> -->
-                
-            </ol>
-              </section>
+    <section class="timeline">
+
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="people-outline"></ion-icon>
+      </div>
+      <h3 class="h3">Lab Members</h3>
+    </div>
+
+    <div class="lab-members-grid">
+
+      <!--
+        HOW TO ADD A MEMBER:
+        1. Copy one <div class="lab-member-card"> block below.
+        2. Replace the img src with the member's photo (place it in assets/images/).
+        3. Fill in name, role/program, and research focus.
+      -->
+
+      <!-- Member: Stella Kang -->
+      <div class="lab-member-card">
+        <figure class="lab-member-avatar">
+          <img src="./assets/images/Stella.jpg" alt="Stella Kang">
+        </figure>
+        <div>
+          <h4 class="h4 lab-member-name"><a href="https://www.linkedin.com/in/stellak-vt/" target="_blank" style="color:inherit;"> Stella (Minji) Kang </a></h4>
+          <p class="lab-member-role">Undergraduate Researcher</p>
+          <p class="lab-member-research">Applied AI, Evidence Synthesis</p>
+        </div>
+      </div>
+
+      <!-- Member: Artur Primo
+      <div class="lab-member-card">
+        <figure class="lab-member-avatar">
+          <img src="./assets/images/artur-primo.jpg" alt="Artur Primo">
+        </figure>
+        <div>
+          <h4 class="h4 lab-member-name">Artur Primo</h4>
+          <p class="lab-member-role">Role / Program</p>
+          <p class="lab-member-research">Research focus: ...</p>
+        </div>
+      </div> -->
+
+      <div class="lab-member-card">
+        <figure class="lab-member-avatar">
+          <img src="./assets/images/tanvi.png" alt="Tanvi Kapoor">
+        </figure>
+        <div>
+          <h4 class="h4 lab-member-name"> <a href="www.linkedin.com/in/tanvi-kapoor07" target="_blank" style="color:inherit;">Tanvi Kapoor</a></h4>
+          <p class="lab-member-role">Undergraduate Researcher>
+          <p class="lab-member-research">Historical NLP, Handwriting OCR</p>
+        </div>
+      </div>
+
+      <!-- ADD MORE MEMBERS BELOW — copy a card block above and paste here -->
+
+    </div>
+
+  </section>
+
+   <section class="about-text">
+    <p>I have collaborated with several awesome researchers in the library and other departments!</p>
+  </section>
+
+  <section class="timeline">
+
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="school-outline"></ion-icon>
+      </div>
+      <h3 class="h3">Collaborating Faculty</h3>
+    </div>
+
+    <div class="lab-members-grid">
+
+      <!--
+        HOW TO ADD A COLLABORATING FACULTY MEMBER:
+        1. Copy one <div class="lab-member-card"> block below.
+        2. Replace the img src with their photo (place it in assets/images/).
+        3. Fill in name, institution, and a brief note on the collaboration.
+        4. Optionally wrap the name in an <a href="..."> to link their webpage.
+      -->
+
+      <!-- Faculty collaborator placeholder -->
+       <div class="lab-member-card">
+        <figure class="lab-member-avatar">
+          <img src="./assets/images/ingram.png" alt="Dr. William A. Ingram">
+        </figure>
+        <div>
+          <h4 class="h4 lab-member-name"><a href="https://waingram.github.io/" target="_blank" style="color:inherit;">Dr. William A. Ingram</a></h4>
+          <p class="lab-member-role">Virginia Tech, University Libraries</p>
+          <p class="lab-member-research">Scholarly AI, Digital Libraries, NLP, IR</p>
+        </div>
+      </div>
+
+      <div class="lab-member-card">
+        <figure class="lab-member-avatar">
+          <img src="./assets/images/Irene.png" alt="Dr. Irene Curulli">
+        </figure>
+        <div>
+          <h4 class="h4 lab-member-name"><a href="https://design.vt.edu/faculty-staff/faculty/landscape-architecture/curulli-irene.html" target="_blank" style="color:inherit;">Dr. Irene Curulli</a></h4>
+          <p class="lab-member-role">Virginia Tech, School of Design</p>
+          <p class="lab-member-research">Transforming the waterfronts of former industrial waterways</p>
+        </div>
+      </div>
+      <div class="lab-member-card">
+        <figure class="lab-member-avatar">
+          <img src="./assets/images/Comer.jpg" alt="C. Cozette Comer">
+        </figure>
+        <div>
+          <h4 class="h4 lab-member-name"><a href="https://guides.lib.vt.edu/prf.php?id=5d69bdeb-7cdb-11ed-9922-0ad758b798c3" target="_blank" style="color:inherit;">Cozette Comer</a></h4>
+          <p class="lab-member-role">Virginia Tech, University Libraries</p>
+          <p class="lab-member-research">Use of AI in Evidence Synthesis</p>
+        </div>
+      </div>
+
+      <div class="lab-member-card">
+        <figure class="lab-member-avatar">
+          <img src="./assets/images/jennifer.jpg" alt="Jennifer Goyne">
+        </figure>
+        <div>
+          <h4 class="h4 lab-member-name"><a href="https://experts.vt.edu/27465-jennifer-goyne" target="_blank" style="color:inherit;">Jennifer Goyne</a></h4>
+          <p class="lab-member-role">Virginia Tech, University Libraries</p>
+          <p class="lab-member-research">Use of AI in digital libraries</p>
+        </div>
+      </div>
+
+      <!-- ADD MORE COLLABORATORS BELOW — copy a card block above and paste here -->
+
+    </div>
+
+  </section>
+
 
 
 </article>
