@@ -157,3 +157,22 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+
+
+// footer: last updated date — reflects the page's own last-modified timestamp, no manual upkeep needed
+const lastUpdatedEl = document.getElementById("last-updated-date");
+if (lastUpdatedEl) {
+  const lastModified = new Date(document.lastModified);
+  lastUpdatedEl.textContent = lastModified.toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric"
+  });
+}
+
+// footer: copyright year, always current
+const copyrightYearEl = document.getElementById("copyright-year");
+if (copyrightYearEl) {
+  copyrightYearEl.textContent = new Date().getFullYear();
+}
