@@ -1910,6 +1910,13 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .navbar-link { font-weight: var(--fw-500); }
 
+  /* clear the absolutely-positioned navbar for pages with a two-line title */
+  .lab header,
+  .professional.experience header,
+  .publications header {
+    margin-top: 50px;
+  }
+
 
 
   /**
